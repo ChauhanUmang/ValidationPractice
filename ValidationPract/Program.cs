@@ -6,7 +6,8 @@ Employee emp = new();
 
 try
 {
-    emp.FirstName = "";
+    emp.FirstName = "John";
+    emp.WorkExperienceInYears = -1;
 }
 catch (Exception ex)
 {
